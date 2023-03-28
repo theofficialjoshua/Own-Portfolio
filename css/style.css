@@ -20,7 +20,7 @@ html {
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
-body {background-image: url(https://ibb.co/rZ7qY5y);
+body {
     background-repeat: no-repeat;
     max-width:1940px;
     padding-left:10px;
@@ -167,7 +167,7 @@ a:hover, a:focus {
     line-height: 0;
 }
 .text_link{
-    color: #812faa;
+    color: #000000;
 }
 
 .center {
