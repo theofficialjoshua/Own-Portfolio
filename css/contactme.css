@@ -133,7 +133,22 @@ animation:
     background-color: rgb(4, 0, 4);
     color: #1d002c;
 
-
+}
+.second_typewriter{
+position: absolute;
+top: 120%;
+left: 50%;
+transform: translate(-50%, -50%);
+overflow: hidden; 
+border-right: .01em solid #1d002c; /* typwriter cursor */
+white-space: normal; /* eine line */
+margin: 0 auto; /* scoll effekt */
+letter-spacing: .05em; 
+animation: 
+  typing 0s steps(40, end),
+  blink-caret 2000s step-end infinite;
+    color: #2b0e3d;
+}
 
 a { 
     color:black;
