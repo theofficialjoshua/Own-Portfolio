@@ -158,24 +158,26 @@ a:hover, a:focus {
     text-decoration:underline;
 }
 
-.custom-shape-divider-top-1679503004 {
-    position: relative;
+.custom-shape-divider-top-1679762299 {
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
 }
-.text_link{
-    color: #000000;
+
+.custom-shape-divider-top-1679762299 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 130px;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-  }
+.custom-shape-divider-top-1679762299 .shape-fill {
+    fill: black;
+    z-index: 1;
+}
 
 .left {
     display: block;
