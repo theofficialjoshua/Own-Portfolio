@@ -24,6 +24,7 @@ html {
 
 body {
     background-repeat: no-repeat;
+    background-color: #0F0F0F;
     max-width:1940px;
     padding-left:10px;
     padding-right:10px;
@@ -32,6 +33,24 @@ body {
  height: 100%;
  position:relative;
 }
+
+h1 {
+    color: rgb(99, 59, 80);
+    z-index: 4;
+}
+
+h2 {
+    color:rgb(99, 59, 80)
+} 
+h3 {
+    color: rgb(58, 57, 57)
+}
+
+a {
+    color: rgb(58, 57, 57);
+    z-index: 1;
+}
+
 .hero {
     height: 100vh;
     width: 100%;
@@ -48,7 +67,7 @@ nav{
     padding-right: 10%;
 }
 .logo{
-    color: black;
+    color: rgb(58, 57, 57);
     font-size: 28px;
 }
 span{
@@ -77,7 +96,7 @@ button{
     background: transparent;
     padding: 12px 30px;
     border-radius: 30px;
-    color: rgb(99, 59, 80);
+    color: rgb(58, 57, 57);
     font-weight: bold;
     font-size: 15px;
     transition: .4s;
@@ -86,6 +105,7 @@ button{
 button:hover{
     transform: scale(1.3);
     cursor: pointer;
+    color: rgb(99, 59, 80);
     z-index: 2;
 }
 
@@ -118,13 +138,18 @@ button:hover{
 
 }
 
+a {
+        color: rgb(58, 57, 57);
+        z-index: 1;
+    }
+    
 
-a { 
-    color: rgb(99, 59, 80);
-    text-decoration:none;
-}
 a:hover, a:focus {
     text-decoration:underline;
+}
+
+.nav-link {
+    background-color: #0F0F0F;
 }
 
 /* überschrift und text */
@@ -135,7 +160,7 @@ a:hover, a:focus {
     height: 200px;
     z-index: 15;
     top: 50%;
-    left: 50%;
+    left: 850%;
     margin: -180px 0 0 160px;
     pointer-events: none;
 }
@@ -147,7 +172,7 @@ a:hover, a:focus {
         height: 200px;
         z-index: 15;
         top: 50%;
-        left: 50%;
+        left: 700%;
         margin: -120px 0 0 160px;
         pointer-events: none;
 }
